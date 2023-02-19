@@ -33,6 +33,7 @@ body {
   align-items: center;
   margin-bottom: 20px;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .input {
@@ -40,6 +41,34 @@ body {
   width: 175px;
   padding: 0 8px;
   border-radius: 8px;
-  /* outline: none; */
+  outline: none;
   border: none;
+  background-color: #fff;
+}
+
+.input:hover {
+  outline: auto rgb(68, 225, 47);
+}
+
+.input:active {
+  outline: auto rgb(68, 225, 47);
+}
+
+.clear {
+  width: 150px;
+  height: 35px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 15px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px rgb(234, 234, 53);
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.clear:active {
+  transform: scale(0.98);
+  /* background-color: rgb(160, 160, 95); */
 }
