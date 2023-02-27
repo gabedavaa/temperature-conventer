@@ -70,5 +70,5 @@ body {
 
 .clear:active {
   transform: scale(0.98);
-  /* background-color: rgb(160, 160, 95); */
+  cursor: pointer;
 }
