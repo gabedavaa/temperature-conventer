@@ -46,11 +46,11 @@ body {
   background-color: #fff;
 }
 
-.input:hover {
+input:focus {
   outline: auto rgb(68, 225, 47);
 }
 
-.input:active {
+input:focus {
   outline: auto rgb(68, 225, 47);
 }
 
@@ -66,9 +66,9 @@ body {
   letter-spacing: 2px;
   font-weight: bold;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .clear:active {
   transform: scale(0.98);
-  cursor: pointer;
 }
