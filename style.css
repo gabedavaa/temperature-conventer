@@ -47,11 +47,8 @@ body {
 }
 
 input:focus {
-  outline: auto rgb(68, 225, 47);
-}
-
-input:focus {
-  outline: auto rgb(68, 225, 47);
+  background-color: rgb(198, 251, 255);
+  outline: none;
 }
 
 .clear {
